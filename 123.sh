@@ -376,7 +376,7 @@ install_continue2
 } > /dev/null
 echo ""
 echo -e "SSH WEB" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @Couty_SSH\033[1;36m" | lolcat
+echo -e "                              \033[1;31mBy @Smigolvip\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;36mDEFINA UMA NOVA SENHA PARA\033[0m" | lolcat
 echo -e "\033[1;36mO USUÁRIO ROOT DA VPS E\033[0m" | lolcat
@@ -398,7 +398,7 @@ clear
 sed -i "s;upload_max_filesize = 2M;upload_max_filesize = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 echo -e "SSH WEB" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @Couty_SSH\033[1;36m" | lolcat
+echo -e "                              \033[1;31mBy @Smigolvip\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!" | lolcat
 echo ""
@@ -413,7 +413,7 @@ echo -e "\033[1;36m USUÁRIO:\033[1;37m root\033[0m"
 echo -e "\033[1;36m SENHA:\033[1;37m $pwdroot\033[0m"
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Couty_SSH\033[0m" | lolcat
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Smigolvip\033[0m" | lolcat
 echo ""
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar...\033[1;32m! \033[0m"; read
 systemctl restart apache2 > /dev/null 2>&1
