@@ -295,7 +295,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
-                                Desenvolvido por <a href="https://kiwify.app/NKl55g5" target="_blank" class="text-reset font-weight-bold">EMPRESA</a>
+                                Desenvolvido por <a href="https://pulseplay.xyz" target="_blank" class="text-reset font-weight-bold">EMPRESA</a>
 
                             </div>
                         </div>
