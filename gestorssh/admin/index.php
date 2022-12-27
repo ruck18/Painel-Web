@@ -76,7 +76,7 @@
                                             <div class="d-flex justify-content-between">
                                                 <label class="form-label" for="password-icon">Senha</label>
                                                 <a href="#">
-                                                    <small><FONT COLOR="#001FFF">Esqueceu a senha?</FONT></small>
+                                                    <small><FONT COLOR="#00FF00">Esqueceu a senha?</FONT></small>
                                                 </a>
                                             </div>
                                             <div class="input-group input-group-merge">
@@ -104,11 +104,11 @@
                                     <div class="divider-text">ou</div>
                                 </div>
                                 <div class="auth-footer-btn d-flex justify-content-center">
-                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#001FFF"> LOGAR COMO REVENDA</FONT></b></a>
+                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#00FF00"> LOGAR COMO REVENDA</FONT></b></a>
                                 </div>
 								<br>
 									<div class="auth-footer-btn d-flex justify-content-center">
-										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#001FFF">LOJA DE APLICATIVOS</FONT></b></a>
+										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#00FF00">LOJA DE APLICATIVOS</FONT></b></a>
                                     </div>
                             </div>
                         </div>
