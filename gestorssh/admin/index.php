@@ -9,7 +9,7 @@
     <meta name="description" content="Painel de gerenciamento vpn">
     <meta name="keywords" content="vpn, ssh, user, servidor">
     <meta name="author" content="crazy">
-    <title>EMPRESA VPN 🚀</title>
+    <title>EMPRESA VPN</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
@@ -55,7 +55,7 @@
                             <div class="card-body">
                                         <h2 class="text-primary text-center"><a class="nav-link nav-link-style"><b><FONT COLOR="#e90000">EMPRESA</FONT></b></h2></a>
                                     <br>
-                                <h4 class="card-title mb-1 text-center text-danger">👋 Bem vindoª Admin!</h4>
+                                <h4 class="card-title mb-1 text-center text-danger">Bem Vindo Admin!</h4>
                                 <p class="card-text mb-2 text-center">Entre com seu usuário e senha!</p>
                                 <!--<form class="form form-vertical" action="validacao.php" method="post">-->
                                 <div class="row">
@@ -76,7 +76,7 @@
                                             <div class="d-flex justify-content-between">
                                                 <label class="form-label" for="password-icon">Senha</label>
                                                 <a href="#">
-                                                    <small><FONT COLOR="#e90000">Esqueceu a senha?</FONT></small>
+                                                    <small><FONT COLOR="#001FFF">Esqueceu a senha?</FONT></small>
                                                 </a>
                                             </div>
                                             <div class="input-group input-group-merge">
@@ -104,11 +104,11 @@
                                     <div class="divider-text">ou</div>
                                 </div>
                                 <div class="auth-footer-btn d-flex justify-content-center">
-                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#e90000">👨‍💻 ENTRAR NA REVENDA</FONT></b></a>
+                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#001FFF">ENTRAR COMO REVENDEDOR</FONT></b></a>
                                 </div>
 								<br>
 									<div class="auth-footer-btn d-flex justify-content-center">
-										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#e90000">⏬ APPs</FONT></b></a>
+										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#001FFF">⏬ APPs</FONT></b></a>
                                     </div>
                             </div>
                         </div>
