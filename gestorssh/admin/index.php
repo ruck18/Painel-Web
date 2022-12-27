@@ -104,11 +104,11 @@
                                     <div class="divider-text">ou</div>
                                 </div>
                                 <div class="auth-footer-btn d-flex justify-content-center">
-                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#001FFF">ENTRAR COMO REVENDEDOR</FONT></b></a>
+                                    <a class="text-primary text-center" href="/"><b><FONT COLOR="#001FFF"> LOGAR COMO REVENDA</FONT></b></a>
                                 </div>
 								<br>
 									<div class="auth-footer-btn d-flex justify-content-center">
-										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#001FFF">⏬ APPs</FONT></b></a>
+										<a class="text-primary text-center" href="/./apps"><b><FONT COLOR="#001FFF">LOJA DE APLICATIVOS</FONT></b></a>
                                     </div>
                             </div>
                         </div>

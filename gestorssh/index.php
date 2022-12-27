@@ -86,7 +86,7 @@
 								<marquee behavior="scroll" onmouseout="this.start();" onmouseover="this.stop();"><b><FONT COLOR="#7367F0"><h5>📣 NOVIDADES AQUI !!!</h5></b></FONT></marquee>
                                         <h2 class="text-primary text-center"><a class="nav-link nav-link-style"><b>EMPRESA</b></h2></a>
                                     <br>
-                                    <h4 class="card-title mb-1 text-center text-primary">Olá Revenda ! Seja Bem Vindo!</h4>
+                                    <h4 class="card-title mb-1 text-center text-primary">Olá Revenda, Seja Bem Vindo!</h4>
                                     <p class="card-text mb-2 text-center">Entre com seu usuário e senha!</p>
                                         <div class="row">
                                             <div class="col-12">
@@ -134,7 +134,7 @@
                                         <div class="divider-text">ou</div>
                                     </div>
                                     <div class="auth-footer-btn d-flex justify-content-center">
-                                        <a class="text-primary text-center" href="./admin"><b>ENTRAR COMO ADMINISTRADOR</b></a>
+                                        <a class="text-primary text-center" href="./admin"><b> ENTRAR COMO ADMINISTRADOR</b></a>
                                     </div>
 									<br>
 									<div class="auth-footer-btn d-flex justify-content-center">
