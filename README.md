@@ -66,9 +66,3 @@ em breve
 
 ![Screenshot_8](https://user-images.githubusercontent.com/105602625/190263464-7be50eb5-aed8-47d5-9f29-233d769ae8ac.jpg)
 
-
-
-# 𓊈𒆜 VPN MONEY: 𒆜𓊉
-👉 
-
-# Painel-web
