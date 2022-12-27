@@ -55,6 +55,6 @@
                 • VOCÊ CONCORDA QUE VOCÊ ACESSA E USA O SERVIÇO A SEU CRITÉRIO E RISCO.<br><br>
                 • TODA RESPONSABILIDADE DE USO É SUA, NÃO SOMOS RESPONSÁVEL PELA REDE QUE VOCÊ ESTÁ A ACESSAR O SERVIÇO.
             </h4>
-            <p class="copyright">&copy; 2021 - <script> document.write(new Date().getFullYear())</script><br> Todos os direitos reservados<br><a title="Styleshout" href="https://kiwify.app/NKl55g5">EMPRESA 🚀</a></p>
+            <p class="copyright">&copy; 2021 - <script> document.write(new Date().getFullYear())</script><br> Todos os direitos reservados<br><a title="Styleshout" href="https://pulseplay.xyz">EMPRESA 🚀</a></p>
     </body>
 </html>
