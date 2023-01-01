@@ -49,7 +49,7 @@ Conexão com: ".$row['nome']."
 			   ./backup.sh
 else
 	apt-get install wget tar dos2unix -y
-	wget https://raw.githubusercontent.com/JeanRocha91x/psshplus-/main/gestorssh/backup.sh -O backup.sh
+	wget https://raw.githubusercontent.com/ruck18/Painel-web/main/gestorssh/backup.sh -O backup.sh
 fi');
 			//Executa o script de backup e imprime o resultado
 			echo "Iniciando execução do script...
