@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <!-- META SECTION -->
-        <title>APPs EMPRESA</title>
+        <title>APLICATIVOS EMPRESA</title>
         <meta name="title" content="EMPRESA 🚀 - Internet Ilimitada 5G">
         <meta name="description" content="EMPRESA VPN 🚀 - Internet ilimitada de alta qualidade."> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -37,7 +37,7 @@
                     <input type="hidden" id="apps" value="release/index.html">
                     <div class="row text-center" style="display:contents;">
                         <div class="col-12">
-                            <h1 class="display-4 text-white"><b>APPS EMPRESA</h1>
+                            <h1 class="display-4 text-white"><b>APLICATIVOS EMPRESA</h1>
                         </div>
                     </div>
                 </div>
