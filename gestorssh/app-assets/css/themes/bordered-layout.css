@@ -1,0 +1,44 @@
+.bordered-layout .header-navbar {
+  box-shadow: none;
+  border: 1px solid #ff00f2; 
+  border-radius: 30px; }
+
+.bordered-layout .header-navbar.floating-nav {
+  border: 1px solid #ff00f2; }
+
+.bordered-layout .header-navbar.fixed-top {
+  border-bottom: 10px solid #ff00f2;
+  background: #f8f8f8;
+  box-shadow: none !important; 
+  border-radius: 20px; }
+
+.bordered-layout .main-menu {
+  border-right: 5px solid #ff00f2;
+  box-shadow: none; 
+  border-radius: 30px; }
+.bordered-layout .main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a, .bordered-layout .main-menu.menu-light .navigation > li.sidebar-group-active > a {
+  background: #ededed; }
+
+.bordered-layout .dropdown-menu {
+  border: 10px solid #ff00f2 !important;
+  box-shadow: none; 
+  border-radius: 20px; }
+
+.bordered-layout .main-menu .navigation,
+.bordered-layout .main-menu {
+  background: #381d56; }
+
+.bordered-layout .card,
+.bordered-layout .bs-stepper:not(.wizard-modern):not(.checkout-tab-steps),
+.bordered-layout .bs-stepper.wizard-modern .bs-stepper-content {
+  border: 5px solid #0bff6a;
+  box-shadow: none; 
+  border-radius: 20px; }
+
+.bordered-layout .footer {
+  box-shadow: none !important; 
+  border-radius: 20px; }
+
+.bordered-layout .footer-fixed .footer {
+  border-top: 10px solid #ff00f2; 
+  border-radius: 20px; }
