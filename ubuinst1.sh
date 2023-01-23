@@ -400,20 +400,20 @@ sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/8.1/apache2/php.in
 echo -e "SSH WEB" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy @Smigolvip\033[1;36m" | lolcat
 echo ""
-echo -e "\033[1;32m✅ PAINEL INSTALADO COM SUCESSO! ✅" | lolcat
+echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!" | lolcat
 echo ""
-echo -e "\033[1;36m🌐 SEU PAINEL:\033[1;37m http://$IP/admin\033[0m"
-echo -e "\033[1;36m👤 USUÁRIO:\033[1;37m admin\033[0m"
-echo -e "\033[1;36m🔑 SENHA:\033[1;37m admin\033[0m"
+echo -e "\033[1;36m SEU PAINEL:\033[1;37m http://$IP/admin\033[0m"
+echo -e "\033[1;36m USUÁRIO:\033[1;37m admin\033[0m"
+echo -e "\033[1;36m SENHA:\033[1;37m admin\033[0m"
 echo ""
-echo -e "\033[1;36m🔰 LOJA DE APPS:\033[1;37m http://$IP/apps\033[0m"
+echo -e "\033[1;36m LOJA DE APPS:\033[1;37m http://$IP/apps\033[0m"
 echo ""
-echo -e "\033[1;36m🌐 PHPMYADMIN:\033[1;37m http://$IP/phpmyadmin\033[0m"
-echo -e "\033[1;36m👤 USUÁRIO:\033[1;37m root\033[0m"
-echo -e "\033[1;36m🔑 SENHA:\033[1;37m $pwdroot\033[0m"
+echo -e "\033[1;36m PHPMYADMIN:\033[1;37m http://$IP/phpmyadmin\033[0m"
+echo -e "\033[1;36m USUÁRIO:\033[1;37m root\033[0m"
+echo -e "\033[1;36m SENHA:\033[1;37m $pwdroot\033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33m🔅 COMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
-echo -e "\033[1;33m🔰 MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Smigolvip\033[0m" | lolcat
+echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Smigolvip\033[0m" | lolcat
 echo ""
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar...\033[1;32m! \033[0m"; read
 systemctl restart apache2 > /dev/null 2>&1
