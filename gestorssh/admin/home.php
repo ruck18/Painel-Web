@@ -128,11 +128,11 @@ $all_chamados += $SQLchamadoscli->rowCount();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="Gerenciador de conexôes SSH">
-    <meta name="keywords" content="VPN EMPRESA 🚀, VPN, SSH, Gratis, Registrar">
+    <meta name="keywords" content="EMPRESA, VPN, SSH, Gratis, Registrar">
     <meta name="author" content="Crazy">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="theme-color" content="#FFFFFF">
-    <title>EMPRESA 🚀 - PAINEL</title>
+    <title>EMPRESA</title>
     <link rel="apple-touch-icon" href="../app-assets/images/ico/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
@@ -369,9 +369,9 @@ $all_chamados += $SQLchamadoscli->rowCount();
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item me-auto"><a class="navbar-brand" href="/admin/home.php"><span class="brand-logo">
-                            <img class="round" src="../app-assets/images/logo/logo.png" alt="avatar" height="35" width="28" />
+                            <img class="round" src="../app-assets/images/avatars/avatar6.png" alt="avatar" height="35" width="28" />
                         </span>
-                        <h2 class="brand-text">EMPRESA </h2>
+                        <h2 class="brand-text">EMPRESA</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
             </ul>
@@ -385,15 +385,16 @@ $all_chamados += $SQLchamadoscli->rowCount();
                 <li class=" navigation-header"><span>MENU</span>
                 </li>
 
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="text-success" data-feather="shield"></i><span class="menu-title text-truncate" data-i18n="Area VPN">CONTAS SSH</span><span class="badge badge-light-success rounded-pill ms-auto me-1"><?php echo $contas_ssh; ?></span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="text-success" data-feather="shield"></i><span class="menu-title text-truncate" data-i18n="Area VPN">CONTAS</span><span class="badge badge-light-success rounded-pill ms-auto me-1"><?php echo $contas_ssh; ?></span></a>
                     <ul class="menu-content">
-                        <li><a href="?page=ssh/adicionar"><i data-feather="user-plus"></i><span class="menu-item" data-i18n="Criar VPN">Criar Conta SSH</span></a>
+                        <li><a href="?page=ssh/adicionar"><i data-feather="user-plus"></i><span class="menu-item" data-i18n="Criar VPN">Criar Usuário</span></a>
                         </li>
-                        <li><a href="?page=ssh/add_teste"><i data-feather="clock"></i><span class="menu-item" data-i18n="Criar Teste">Criar Teste SSH</span></a>
+                        <li><a href="?page=ssh/add_teste"><i data-feather="clock"></i><span class="menu-item" data-i18n="Criar Teste">Criar Teste</span></a>
                         </li>
-                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">SSH Online</span></a></li>
-                        <li><a href="?page=ssh/contas"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Listar SSH</span></a>
-						<li><a href="?page=ssh/suspenso"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Contas Susp</span></a>
+                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">Usuário Online</span></a></li>
+                        <li><a href="?page=ssh/contas"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Listar de Usuário</span></a>
+                        </li>
+                                                <li><a href="?page=ssh/suspenso"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Deletar Suspenso</span></a>
                         </li>
                     </ul>
                 </li>
@@ -402,11 +403,9 @@ $all_chamados += $SQLchamadoscli->rowCount();
                     <ul class="menu-content">
                         <li><a href="?page=usuario/1-etapa"><i data-feather='user-plus'></i><span class="menu-item" data-i18n="Novo Usuário">Novo Revendedor</span></a>
                         </li>
-                        <li><a href="?page=usuario/revenda"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Revendedores</span></a>
+                        <li><a href="?page=usuario/revenda"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Alterar Revendedor</span></a>
                         </li>
                         <li><a href="?page=usuario/addservidor"><i data-feather='user-check'></i><span class="menu-item" data-i18n="Add. Sevidor">Adicionar Servidor</span></a>
-                        </li>
-                        <li><a href="?page=servidor/alocados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Alterar">Alterar Revenda</span></a>
                         </li>
                     </ul>
                 </li>
@@ -433,15 +432,13 @@ $all_chamados += $SQLchamadoscli->rowCount();
 
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="text-primary" data-feather="settings"></i><span class="menu-title text-truncate" data-i18n="Configurações">CONFIGURAÇÕES</span></a>
                     <ul class="menu-content">
-					    <li><a href="?page=conecta"><i data-feather='github'></i><span class="menu-item" data-i18n="Conecta">Conecta4g</span></a>
+					    <li><a href="?page=conecta"><i data-feather='github'></i><span class="menu-item" data-i18n="Conecta">Painel Conecta 4G</span></a>
+						</li>
+						<li><a href="?page=download/downloads"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Enviar Aplicativo</span></a>
                         </li>
-                         <li><a href="?page=apps"><i data-feather='gitlab'></i><span class="menu-item" data-i18n="Apps">Gerenciar Apps</span></a>
+						<li><a href="?page=perso"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Personalizar Banner</span></a>
                         </li>
-                         <li><a href="?page=download/downloads"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Arquivos</span></a>
-                        </li>
-                         <li><a href="?page=perso"><i data-feather='star'></i><span class="menu-item" data-i18n="Apps">Personalizar</span></a>
-                        </li>
-						<li><a href="?page=admin/dados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Minhas Informações">Meus Dados</span></a>
+                        <li><a href="?page=admin/dados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Minhas Informações">Meus Dados</span></a>
                         </li>
                         <li><a href="?page=apis/gerenciar"><i data-feather='code'></i><span class="menu-item" data-i18n="Gerenciar APIS">Gerenciar API</span></a>
                         </li>
@@ -505,7 +502,7 @@ $all_chamados += $SQLchamadoscli->rowCount();
                     &copy; <script>
                         document.write(new Date().getFullYear())
                     </script>
-                    <a class="text-bold-800 grey darken-2" href="https://coutyssh.com.br" target="_blank">EMPRESA 🚀</a></span>
+                    <a class="text-bold-800 grey darken-2" href="#" target="_blank">EMPRESA</a></span>
                 </span>
             </p>
         </center>
