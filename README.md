@@ -53,7 +53,7 @@ em breve
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-![Painel Admin](https://user-images.githubusercontent.com/105602625/190263468-56d64724-1b12-4ce3-9ecb-11df0131fc07.jpg)
+![Painel Admin](https://i.postimg.cc/DZ2rJvW2/Screenshot-7.png)
 
 ![Screenshot_9](https://user-images.githubusercontent.com/105602625/190263465-93cbd881-a166-412f-99bb-1c613c78b7af.jpg)
 
