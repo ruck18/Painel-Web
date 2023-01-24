@@ -323,11 +323,11 @@ if ($usuario['tipo'] == "revenda") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="Gerenciador de conexôes SSH">
-    <meta name="keywords" content="VPN GEMPRESA 🚀, VPN, SSH, Gratis, Registrar">
+    <meta name="keywords" content="EMPRESA, VPN, SSH, Gratis, Registrar">
     <meta name="author" content="Crazy">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="theme-color" content="#FFFFFF">
-    <title>EMPRESA 🚀 - PAINEL</title>
+    <title>EMPRESA</title>
     <link rel="apple-touch-icon" href="../app-assets/images/ico/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
@@ -584,9 +584,9 @@ if ($usuario['tipo'] == "revenda") {
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item me-auto"><a class="navbar-brand" href="home.php"><span class="brand-logo">
-                            <img class="round" src="../app-assets/images/logo/logo.png" alt="avatar" height="35" width="28" />
+                            <img class="round" src="../app-assets/images/avatars/avatar6.png" alt="avatar" height="35" width="28" />
                         </span>
-                        <h2 class="brand-text">EMPRESA </h2>
+                        <h2 class="brand-text">EMPRESA</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
             </ul>
@@ -600,14 +600,14 @@ if ($usuario['tipo'] == "revenda") {
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="text-success" data-feather="shield"></i><span class="menu-title text-truncate" data-i18n="Area VPN">CONTAS SSH</span><span class="badge badge-light-success rounded-pill ms-auto me-1"><?php echo $quantidade_ssh; ?></span></a>
                     <ul class="menu-content">
                         <?php if (($usuario['tipo'] == "revenda") and ($acesso_servidor > 0)) { ?>
-                            <li><a href="?page=ssh/adicionar"><i data-feather="user-plus"></i><span class="menu-item" data-i18n="Criar VPN">Criar Conta SSH</span></a>
+                            <li><a href="?page=ssh/adicionar"><i data-feather="user-plus"></i><span class="menu-item" data-i18n="Criar VPN">Criar Usuário</span></a>
                             </li>
-                            <li><a href="?page=ssh/add_teste"><i data-feather="clock"></i><span class="menu-item" data-i18n="Criar Teste">Criar Teste SSH</span></a>
+                            <li><a href="?page=ssh/add_teste"><i data-feather="clock"></i><span class="menu-item" data-i18n="Criar Teste">Criar Teste</span></a>
                             </li>
                         <?php } ?>
-                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">SSH Online</span></a>
+                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">Usuário Online</span></a>
                         </li>
-                        <li><a href="?page=ssh/contas"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Listar SSH</span></a>
+                        <li><a href="?page=ssh/contas"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Listar de Usuário</span></a>
                         </li>
                     </ul>
                 </li>
@@ -619,11 +619,9 @@ if ($usuario['tipo'] == "revenda") {
                             <ul class="menu-content">
                                 <li><a href="?page=usuario/adicionar"><i data-feather='user-plus'></i><span class="menu-item" data-i18n="Novo Usuário">Novo Revendedor</span></a>
                                 </li>
-                                <li><a href="?page=subrevenda/revendedores"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Revendedores</span></a>
+                                <li><a href="?page=subrevenda/revendedores"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Alterar Revendedor</span></a>
                                 </li>
                                 <li><a href="?page=subrevenda/adicionar"><i data-feather='user-check'></i><span class="menu-item" data-i18n="Add. Sevidor">Adicionar Servidor</span></a>
-                                </li>
-                                <li><a href="?page=subrevenda/alocados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Alterar">Alterar Revenda</span></a>
                                 </li>
                             </ul>
                         </li>
@@ -744,7 +742,7 @@ if ($usuario['tipo'] == "revenda") {
                     &copy; <script>
                         document.write(new Date().getFullYear())
                     </script>
-                    <a class="text-bold-800 grey darken-2" href="https://coutyssh.com.br" target="_blank">EMPRESA 🚀</a></span>
+                    <a class="text-bold-800 grey darken-2" href="#" target="_blank">EMPRESA</a></span>
                 </span>
 
             </p>

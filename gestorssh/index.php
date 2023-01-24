@@ -9,9 +9,14 @@
     <meta name="description" content="Painel de gerenciamento vpn">
     <meta name="keywords" content="sshplus, painel, vpn, ssh, user, servidor">
     <meta name="author" content="crazy">
-    <title>EMPRESA VPN</title>
-    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <title>EMPRESA</title>
+    <style>
+        .esquerdo {
+            margin-right: 50px;
+        }
+    </style>
+    <link rel="apple-touch-icon" href="../app-assets/images/avatars/avatar6.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/avatars/avatar6.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
@@ -26,16 +31,18 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
-	<link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/background.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/stilo.css">
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/form-validation.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/authentication.css">
     <!-- END: Page CSS-->
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/stilo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- END: Custom CSS-->
 </head>
+
 <!-- BEGIN: Body-->
 
 <body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
@@ -48,6 +55,30 @@
             </div>
             <div class="content-body">
 
+<style>
+        body {
+
+            background-image: url("../app-assets/images/background/painel-ad.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .max-width {
+            width: 100vw;
+            max-width: 100vh;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    </div>
+</body>
+
+</body>
+   
                 <body class="fundodapagina vertical-layout vertical-menu-modern 1-column  navbar-floating footer-static  menu-collapsed blank-page blank-page" data-open="click" data-menu="vertical-menu-modern" data-col="1-column">
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -79,66 +110,53 @@
                         </div>
                     </div>
                     <div class="auth-wrapper auth-basic px-2">
-                        <div class="auth-inner my-2">
+                    <div class="auth-inner my-2">
                             <!-- Login basic -->
-                            <div class="card mb-0">
+							<div class="card mb-0">
                                 <div class="card-body">
-								<marquee behavior="scroll" onmouseout="this.start();" onmouseover="this.stop();"><b><FONT COLOR="#7367F0"><h5>📣 NOVIDADES AQUI !!!</h5></b></FONT></marquee>
-                                        <h2 class="text-primary text-center"><a class="nav-link nav-link-style"><b>EMPRESA</b></h2></a>
+                                    <a href="/admin">
+                                    <h4 class="img src animate__animated animate__backInDown"	<center><p><img src="../app-assets/images/avatars/avatar6.png" width="100%" height="100%"></p></center></h4>
+
+                                    </a>
                                     <br>
-                                    <h4 class="card-title mb-1 text-center text-primary">Olá Revenda, Seja Bem Vindo!</h4>
-                                    <p class="card-text mb-2 text-center">Entre com seu usuário e senha!</p>
+                                    <h4 class="card-title animate__animated animate__bounce"><center>EMPRESA</center></h4>
+                                    <p class="card-text mb-2 text-center">Faça login na sua conta</p>
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="mb-1">
-                                                    <label class="form-label" for="first-name-icon">Usuário</label>
-                                                    <div class="input-group input-group-merge">
-                                                        <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
-                                                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                                                <circle cx="12" cy="7" r="4"></circle>
-                                                            </svg></span>
-                                                        <input type="text" class="form-control" id="login" name="login" placeholder="usuário de acesso" required />
+													 <form method="post" action="logando.php">
+													 <label for="login">USUARIO</label>
+                                                <fieldset class="form-label-group form-group position-relative has-icon-left">
+                                                    <input type="text" class="form-control" id="login" name="login" placeholder="Usuário" required>
+                                                    <div class="form-control-position">
+                                                        <i class="feather icon-user"></i>
                                                     </div>
+                                                    <label for="senha">SENHA</label>
+                                                </fieldset>
+
+                                                <fieldset class="form-label-group position-relative has-icon-left">
+                                                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
+                                                    <div class="form-control-position">
+                                                        <i class="feather icon-lock"></i>
+                                                    </div>
+                                                </fieldset>
+                                                <div class="form-group d-flex justify-content-between align-items-center">
+                                                    <div class="text-left">
+                                                        
+                                                    </div>
+                                                    
                                                 </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="mb-1">
-                                                    <div class="d-flex justify-content-between">
-                                                        <label class="form-label" for="password-icon">Senha</label>
-                                                        <a class="text-primary" data-bs-toggle="modal" data-bs-target="#myModal" id="to-recover">
-                                                            <small>Esqueceu a senha?</small>
-                                                        </a>
-                                                    </div>
-                                                    <div class="input-group input-group-merge">
-                                                        <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock">
-                                                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                                                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                                                            </svg></span>
-                                                        <input type="password" class="form-control" id="senha" name="senha" placeholder="senha de acesso" required />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="mb-1">
-                                                    <div class="form-check">
-                                                        <input type="checkbox" class="form-check-input" id="customCheck4">
-                                                        <label class="form-check-label" for="customCheck4">Lembrar</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <button type="button" id="mybtn" class="btn btn-primary w-100" tabindex="4">Entrar</button>
-                                            </div>
+                                                <center><button name="botaologin" class="btn btn-primary w-100 animate__animated animate__zoomIn" tabindex="4" type="submit"><i class="fa fa-sign-in"></i> <b>Entrar</b></button></center>
+											<p></p>
+									        <p></p>
+                                            </form>
                                         </div>
-                                    <div class="divider my-2">
-                                        <div class="divider-text">ou</div>
+										</div>					                       
+									<hr>
+										<p></p>
+									    <p></p>
+										<center><img src="../app-assets/images/background/loja.png" width="40" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="mybtn" class="btn btn-primary w-40" tabindex="4"><a class="text-primary text-center" href="./apps" target="new"><font color="#ffffff">Loja de Apps</font></a></button></center>
                                     </div>
-                                    <div class="auth-footer-btn d-flex justify-content-center">
-                                        <a class="text-primary text-center" href="./admin"><b> ENTRAR COMO ADMINISTRADOR</b></a>
-                                    </div>
-									<br>
-									<div class="auth-footer-btn d-flex justify-content-center">
-										<a class="text-primary text-center" href="./apps"><b>LOJA DE APLICATIVOS</b></a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +186,7 @@
 
                 if (username != "" && password != "") {
                     $.ajax({
-                        url: 'validacao.php',
+                        url: 'logando.php',
                         type: 'post',
                         data: {
                             username: username,
@@ -180,7 +198,7 @@
                                 window.location = "home.php";
                             } else {
                                 Swal.fire({
-                                    title: 'Usuário ou senha incorreto !',
+                                    title: 'Usuario ou senha incorreto !',
                                     icon: 'error',
                                     confirmButtonColor: '#7367f0',
                                     confirmButtonText: 'Ok'
@@ -206,8 +224,31 @@
             }
         })
     </script>
+	
+</div > <!-- BACKGROUND ANIMADO #INICIO -->
+	
 </body>
 <!-- END: Body-->
 
+<!-- WHATSAPP INICIO -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5521970205371" style="position:fixed;width:60px;height:60px;bottom:15px;right:15px;background: linear-gradient(118deg, #665bd9, rgba(220, 60, 239, 0.88));color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+<!-- WHATSAPP FIM -->
+</a>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
