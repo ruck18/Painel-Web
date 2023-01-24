@@ -14,7 +14,7 @@
 <body>
 <center></br>
 <?php
-echo unlink("../app-assets/images/background/painel-rv.png");
+echo unlink("..../app-assets/images/avatars/avatar6.png");
 // verifica se foi enviado um arquivo 
 if(isset($_FILES['arquivo']['name']) && $_FILES["arquivo"]["error"] == 0)
 {
@@ -43,11 +43,11 @@ if(isset($_FILES['arquivo']['name']) && $_FILES["arquivo"]["error"] == 0)
 	{
 		// Cria um nome único para esta imagem
 		// Evita que duplique as imagens no servidor.
-		echo unlink("../app-assets/images/background/painel-rv.png");
-		$novoNome =  "painel-rv.png";
+		echo unlink("../app-assets/images/avatars/avatar6.png");
+		$novoNome =  "avatar6.png";
 		
 		// Concatena a pasta com o nome
-		$destino = '../app-assets/images/background/' . $novoNome; 
+		$destino = '../app-assets/images/avatars/' . $novoNome; 
 		
 		// tenta mover o arquivo para o destino
 		if( @move_uploaded_file( $arquivo_tmp, $destino  ))
