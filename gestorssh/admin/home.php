@@ -434,7 +434,7 @@ $all_chamados += $SQLchamadoscli->rowCount();
                     <ul class="menu-content">
 					    <li><a href="?page=conecta"><i data-feather='github'></i><span class="menu-item" data-i18n="Conecta">Painel Conecta 4G</span></a>
 						</li>
-						<li><a href="?page=download/downloads"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Enviar Aplicativo</span></a>
+						<li><a href="?page=apps"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Enviar Aplicativo</span></a>
                         </li>
 						<li><a href="?page=perso"><i data-feather='file'></i><span class="menu-item" data-i18n="Arquivos">Personalizar Banner</span></a>
                         </li>
