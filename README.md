@@ -12,7 +12,7 @@ apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/3qrfoj3cxbubnps/
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-Pulsenet
+pulsenet
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
@@ -40,29 +40,22 @@ em breve
 
 3- Loja de APPS 
 (Link na tela de login/Revenda e Login/Admin)
-(Troca de cor da Top-Bar e icones nos Textos)
 
-4- Background Área Revenda e Área Admin
-(Para alterar as imagens, bastar ir em persobalizar no menu lateral do admin e fazer o upload das imagens)
+4- Background Área Logo Painel e Fundo da Página
+(Para alterar as imagens, bastar ir em personalizar Banner no menu lateral do admin e fazer o upload das imagens)
 
-5- Texto Flutuante na Tela Login/Revenda
-(📣 NOVIDADES AQUI !!!) Para editar, basta ir em /var/www/html/index.php (linha 86)
-
-6- Página de Termos de Uso editada
-(foi adicionado uma imagem no topo)
+5- Página de Termos de Uso editada
 (cor do background trocada)
 
-7- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
+6- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
 (quando alterar o NOME DA LOGO no painel pweb, Todos os texto EMPRESA será trocado também.)
 ```
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-![Painel Admin VPN Money](https://user-images.githubusercontent.com/105602625/190263468-56d64724-1b12-4ce3-9ecb-11df0131fc07.jpg)
+![Painel Admin](https://i.postimg.cc/Y02fLps6/Screenshot-7.png)
 
-![Painel Revenda VPN Money](https://user-images.githubusercontent.com/105602625/190263459-5ce4defd-6b65-468f-824e-50826154174a.jpg)
+![Screenshot_9](https://i.postimg.cc/Fzncf0cv/Screenshot-8.png)
 
-![Screenshot_9](https://user-images.githubusercontent.com/105602625/190263465-93cbd881-a166-412f-99bb-1c613c78b7af.jpg)
-
-![Screenshot_8](https://user-images.githubusercontent.com/105602625/190263464-7be50eb5-aed8-47d5-9f29-233d769ae8ac.jpg)
+![Screenshot_8](https://i.postimg.cc/s2yBgT8S/Screenshot-9.png)
 
