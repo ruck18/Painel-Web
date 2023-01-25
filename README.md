@@ -53,9 +53,15 @@ em breve
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-![Painel Admin](https://i.postimg.cc/Y02fLps6/Screenshot-7.png)
+![Fundo de Painel](https://i.postimg.cc/2ymVPRjy/Screenshot-1.png)
 
-![Screenshot_9](https://i.postimg.cc/Fzncf0cv/Screenshot-8.png)
+![Screenshot_1](https://i.postimg.cc/CxtdwfMW/Screenshot-6.png)
 
-![Screenshot_8](https://i.postimg.cc/s2yBgT8S/Screenshot-9.png)
+![Screenshot_2](https://i.postimg.cc/4yJxW6wh/Screenshot-7.png)
+
+![Screenshot_4](https://i.postimg.cc/YCJ25Kb7/Screenshot-8.png)
+
+![Screenshot_5](https://i.postimg.cc/Y0nM8JhJ/Screenshot-9.png)
+
+![Screenshot_6](https://i.postimg.cc/VLvY5Lh1/Screenshot-10.png)
 
