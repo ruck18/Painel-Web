@@ -32,6 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/stilo.css">
+	<link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/fundo.css">
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/form-validation.css">
@@ -44,6 +45,28 @@
 </head>
 
 <!-- BEGIN: Body-->
+</div > <!-- BACKGROUND ANIMADO #INICIO -->
+<!-- Quantity should be the same in Sass-->
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+
+
+	
+</body>
+<!-- END: Body-->
 
 <body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
     <!-- BEGIN: Content-->
@@ -114,7 +137,7 @@
                             <!-- Login basic -->
 							<div class="card mb-0">
                                 <div class="card-body">
-                                    <a href="/admin">
+                                    <a class="nav-link nav-link-style">
                                     <h4 class="img src animate__animated animate__backInDown"	<center><p><img src="../app-assets/images/avatars/avatar6.png" width="100%" height="100%"></p></center></h4>
 
                                     </a>
