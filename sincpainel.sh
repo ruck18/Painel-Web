@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo -e "\033[1;36mINSTALANDO O SINCRONIZADOR SSH WEB\033[0m"
+echo -e "\033[1;36mINSTALANDO O SINCRONIZADOR GESTOR-SSH\033[0m"
 echo "America/Sao_Paulo" > /etc/timezone
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
@@ -8,7 +8,7 @@ clear
 echo -e "\033[1;36mPOR FAVOR AGUARDE...\033[0m"
 crack=$(cut -d"'" -f2 /opt/sshplus/licenca.txt) > /dev/null 2>&1
 sleep 1.5
-echo -e "\033[1;36mREGISTRANDO UMA LICENÇA...\033[0m"
+echo -e "\033[1;36mCRACKEANDO UMA LICENÇA...\033[0m"
 rm *.sh* > /dev/null 2>&1
 rm *.zip > /dev/null 2>&1
 apt install unzip -y > /dev/null 2>&1
