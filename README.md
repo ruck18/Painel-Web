@@ -32,6 +32,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 ```
 
 # 𓊈𒆜 ATUALIZAÇÕES: 𒆜𓊉
+```
 
 1- Comando pweb
 (Funciona via terminal SSH)
@@ -54,6 +55,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 ```
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
+```
 
 ![Painel Admin](https://i.postimg.cc/Y02fLps6/Screenshot-7.png)
 
