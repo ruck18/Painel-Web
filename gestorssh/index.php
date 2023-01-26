@@ -9,7 +9,7 @@
     <meta name="description" content="Painel de gerenciamento vpn">
     <meta name="keywords" content="sshplus, painel, vpn, ssh, user, servidor">
     <meta name="author" content="crazy">
-    <title>PAINEL WEB FREE</title>
+    <title>EMPRESA</title>
     <style>
         .esquerdo {
             margin-right: 50px;
@@ -143,7 +143,7 @@
 
                                     </a>
                                     <br>
-                                    <center><h4 <button class="btn btn-primary w-40 animate__animated animate__bounce">PAINEL WEB FREE</button></h4></center>
+                                    <center><h4 <button class="btn btn-primary w-40 animate__animated animate__bounce">EMPRESA</button></h4></center>
                                     <p class="card-text mb-2 text-center">Faça login na sua conta</p>
                                         <div class="row">
                                             <div class="col-12">
