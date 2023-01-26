@@ -64,4 +64,5 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 ![Screenshot_9](https://i.postimg.cc/Fzncf0cv/Screenshot-8.png)
 
 ![Screenshot_8](https://i.postimg.cc/s2yBgT8S/Screenshot-9.png)
+```
 
