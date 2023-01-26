@@ -1,15 +1,17 @@
 # 𓊈𒆜 ATENÇÃO !!! 𒆜𓊉
-
+```
 📌 Este Projeto Do Painel Web Free, foi modicado para aqueles que sofrem em pagar key absurdas.
+```
 📌 Meu projeto se destina - se aos usuários que foram lesados com essas keys vendidas.
+```
 📌 Quer copiar o projeto, sinta-se a vontade, mais deixe os créditos.
-
+```
 🙎 Dono do Projeto
-
+```
 😎 @smigolvip
-
+```
 🔥 Participação
-
+```
 😎 @coutyssh
 
 ```
