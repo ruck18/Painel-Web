@@ -401,11 +401,13 @@ $all_chamados += $SQLchamadoscli->rowCount();
 
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i class="text-info" data-feather="users"></i><span class="menu-title text-truncate" data-i18n="Area de Cliente">REVENDAS</span><span class="badge badge-light-info rounded-pill ms-auto me-1"><?php echo $all_usuarios_qtd; ?></span></a>
                     <ul class="menu-content">
-                        <li><a href="?page=usuario/1-etapa"><i data-feather='user-plus'></i><span class="menu-item" data-i18n="Novo Usuário">Novo Revendedor</span></a>
+                        <li><a href="?page=usuario/1-etapa"><i data-feather='user-plus'></i><span class="menu-item" data-i18n="Novo Usuário">Criar Revenda</span></a>
                         </li>
-                        <li><a href="?page=usuario/revenda"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Alterar Revendedor</span></a>
+                        <li><a href="?page=usuario/revenda"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Listar Revendas</span></a>
                         </li>
                         <li><a href="?page=usuario/addservidor"><i data-feather='user-check'></i><span class="menu-item" data-i18n="Add. Sevidor">Adicionar Servidor</span></a>
+                        </li>
+						<li><a href="?page=servidor/alocados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Alterar">Gerenciar Revendas</span></a>
                         </li>
                     </ul>
                 </li>
