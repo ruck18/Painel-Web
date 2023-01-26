@@ -1,14 +1,14 @@
-#  𓊈𒆜 ATENÇÃO ❗❗❗ 𒆜𓊉
+# 𓊈𒆜 ATENÇÃO !!! 𒆜𓊉
 ```
+📍 Este projeto do Painel Web Free, foi modificado para usuários cansados de pagar keys abusivas.
+📍 Este projeto teve influenia do nosso amigo @coutyssh.
+📍 Todos podem copair o repositório e modificar com seu próprio gosto.
+📍 Lembre-se de dar os créditos pelo menos.
 
-1- Este projeto chama-se Painel Web Free, foi modificado e melhorado.
-
-2- Projeto para usuários que não querem pagar por valores de keys abusivas.
+📱 Painel Web Free - Modificado por: @smigolvip
 ```
-
 
 #  𓊈𒆜 PAINEL SSH WEB 𒆜𓊉
-
 
 ⚠ <b>SISTEMA SUPORTADO:</b>
 </br>
@@ -31,12 +31,10 @@ apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/wm0exmvojmlfppf/
 
 apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web/sincpainel.sh)
 
-
 ```
 
 # 𓊈𒆜 ATUALIZAÇÕES: 𒆜𓊉
 ```
-
 1- Comando pweb
 (Funciona via terminal SSH)
 (Com bot telegram)
@@ -58,15 +56,10 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 ```
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
-```
 
 ![Painel Admin](https://i.postimg.cc/Y02fLps6/Screenshot-7.png)
 
 ![Screenshot_9](https://i.postimg.cc/Fzncf0cv/Screenshot-8.png)
 
 ![Screenshot_8](https://i.postimg.cc/s2yBgT8S/Screenshot-9.png)
-```
-# 𓊈𒆜 Creditos: 𒆜𓊉
-```
-
 
