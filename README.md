@@ -1,3 +1,5 @@
+#  𓊈𒆜 ATENÇÃO !!! 𒆜𓊉
+
 #  𓊈𒆜 PAINEL SSH WEB 𒆜𓊉
 
 ⚠ <b>SISTEMA SUPORTADO:</b>
