@@ -57,9 +57,19 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-![Painel Admin](https://i.postimg.cc/Y02fLps6/Screenshot-7.png)
+![Painel Admin](https://i.postimg.cc/44h2JKL7/Screenshot-1.png)
 
-![Screenshot_9](https://i.postimg.cc/Fzncf0cv/Screenshot-8.png)
+![Painel Admin2](https://i.postimg.cc/NM2DfV4q/Screenshot-6.png)
 
-![Screenshot_8](https://i.postimg.cc/s2yBgT8S/Screenshot-9.png)
+![Screenshot_1](https://i.postimg.cc/Vsj9GXZR/Screenshot-7.png)
+
+![Screenshot_2](https://i.postimg.cc/x1r2fD3Y/Screenshot-8.png)
+
+![Screenshot_3](https://i.postimg.cc/rwQ2S0Ly/Screenshot-9.png)
+
+![Screenshot_4](https://i.postimg.cc/yNktcLPn/Screenshot-10.png)
+
+![Screenshot_5](https://i.postimg.cc/cLjXy0RM/Screenshot-12.png)
+
+![Screenshot_6](https://i.postimg.cc/jjP6pNdt/Screenshot-13.png)
 
