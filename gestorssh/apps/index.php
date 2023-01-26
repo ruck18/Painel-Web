@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <!-- META SECTION -->
-        <title>APPs EMPRESA</title>
+        <title>lOJA DE APP EMPRESA</title>
         <meta name="title" content="EMPRESA 🚀 - Internet Ilimitada 5G">
         <meta name="description" content="EMPRESA 🚀 - Internet ilimitada de alta qualidade."> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -35,14 +35,14 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
 
-            <header id="page-topbar" style="background-image: url(../apps/img/banner.jpg)" >
-                <div class="navbar-header" style="height: 140px;">
+            <header id="page-topbar" style="background-image: url(../apps/img/banner1.png)" >
+                <div class="navbar-header" style="height: 150px;">
                     <input type="hidden" id="url_downs" value="release/index.html">
                     <input type="hidden" id="apps" value="release/index.html">
                     <div class="row text-center" style="display:contents;">
                         <div class="col-12">
 						<br></br>
-                            <h1 class="display-4 text-purple"><b>EMPRESA</h1>
+                            <h1 class="display-4 text-purple"><b>LOJA DE APP - EMPRESA ©</h1>
 							<br>
 							<p class="display-6 text-purple"></p>
                         </div>
