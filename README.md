@@ -2,7 +2,7 @@
 ```
 📍 Este projeto do Painel Web Free, foi modificado para usuários cansados de pagar keys abusivas.
 📍 Este projeto teve influenia do nosso amigo @coutyssh.
-📍 Todos podem copair o repositório e modificar com seu próprio gosto.
+📍 Todos poderam copiar o repositório e modificar com seu próprio gosto.
 📍 Lembre-se de dar os créditos pelo menos.
 
 📱 Painel Web Free - Modificado por: @smigolvip
@@ -13,7 +13,7 @@
 ⚠ <b>SISTEMA SUPORTADO:</b>
 </br>
 
-👉 <b>(UBUNTU 18)</b>
+👉 <b>(UBUNTU 18 e 20)</b>
 
 ```
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/3qrfoj3cxbubnps/ubuinst.sh)
