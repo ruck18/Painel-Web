@@ -1,3 +1,10 @@
+#  𓊈𒆜 ATENÇÃO ❗❗❗ 𒆜𓊉
+
+1- Este projeto chama-se Painel Web Free, foi modificado e melhorado.
+
+2- Projeto para usuários que não querem pagar por valores de keys abusivas.
+
+
 #  𓊈𒆜 PAINEL SSH WEB 𒆜𓊉
 
 ⚠ <b>SISTEMA SUPORTADO:</b>
@@ -24,13 +31,8 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 
 ```
 
-# 𓊈𒆜 SCRIPT COM CHECKUSER CONECTA4G! 𒆜𓊉
-```
-em breve
-```
-
 # 𓊈𒆜 ATUALIZAÇÕES: 𒆜𓊉
-```
+
 1- Comando pweb
 (Funciona via terminal SSH)
 (Com bot telegram)
