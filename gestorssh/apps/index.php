@@ -34,15 +34,16 @@
 
         <!-- Begin page -->
         <div id="layout-wrapper">
-
-            <header id="page-topbar" style="background-image: url(../apps/img/banner1.png)" >
+		
+           <header id="page-topbar" style="background-image: url(../apps/img/banner1.png)">
+			
                 <div class="navbar-header" style="height: 150px;">
                     <input type="hidden" id="url_downs" value="release/index.html">
                     <input type="hidden" id="apps" value="release/index.html">
                     <div class="row text-center" style="display:contents;">
                         <div class="col-12">
 						<br></br>
-                            <h1 class="display-4 text-purple"><b>LOJA DE APP - EMPRESA ©</h1>
+                            <h1 class="display-4 text-white"><b>LOJA DE APP - EMPRESA ©</h1>
 							<br>
 							<p class="display-6 text-purple"></p>
                         </div>
@@ -295,7 +296,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-right d-none d-sm-block">
-                                Desenvolvido por <a href="https://t.me/sonycsshgp" target="_blank" class="text-reset font-weight-bold">EMPRESA</a>
+                                Desenvolvido por <a href="https://t.me/smigolvip" target="_blank" class="text-reset font-weight-bold">EMPRESA</a>
 
                             </div>
                         </div>
