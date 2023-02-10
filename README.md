@@ -35,6 +35,12 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/P
 
 ```
 
+# 𓊈𒆜 Banco Conecta 4G 𒆜𓊉 - Não Testado
+```
+bash <(wget -qO- https://www.dropbox.com/s/mvzaqilgswcfxbo/bancoconecta.sh)
+
+```
+
 # 𓊈𒆜 ATUALIZAÇÕES: 𒆜𓊉
 ```
 1- Comando pweb
