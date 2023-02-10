@@ -13,7 +13,7 @@
 ⚠ <b>SISTEMA SUPORTADO:</b>
 </br>
 
-👉 Vps Testadas: Avira Host e OCH
+👉 <b>Vps Testadas: Avira Host e OCH</b>
 
 👉 <b>( UBUNTU 18 e 20 )</b>
 
