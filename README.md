@@ -13,7 +13,9 @@
 ⚠ <b>SISTEMA SUPORTADO:</b>
 </br>
 
-👉 <b>(UBUNTU 18 e 20 - Testado na Avira Host e OCH)</b>
+👉 Vps Testadas: Avira Host e OCH
+
+👉 <b>( UBUNTU 18 e 20 )</b>
 
 ```
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/3qrfoj3cxbubnps/ubuinst.sh)
