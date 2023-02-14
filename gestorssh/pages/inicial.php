@@ -177,7 +177,7 @@ if ($usuario['tipo'] == 'revenda') {
     .img-fluid {
       max-width: 100%;
       height: 100px;
-	  background: linear-gradient(118deg, #7367f0, rgba(255, 0, 0, 0.70));
+	  background-image: url(../app-assets/images/background/fundopf.webp)
     }
   </style>
   <div class="col-12">

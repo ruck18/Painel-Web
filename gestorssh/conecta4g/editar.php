@@ -209,7 +209,7 @@ elseif ($acao == "site") :
         if ($sql_titulo) :
             echo "<script>
         alert('Configurações do site editadas com sucesso !');
-        window.location='" . getConfig('link') . "';
+        window.location='" . getConfig('link') . "/conecta4g/app.php';
         </script>";
         endif;
     else :

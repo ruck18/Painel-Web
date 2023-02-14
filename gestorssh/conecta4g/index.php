@@ -61,10 +61,7 @@ if (getLogged($sid) == true) {
 							</div>
 						</form>
 						<div class="d-flex justify-content-center align-items-center mt-4">
-							<span class="fw-normal">
-								Desenvolvido by
-								<a href="https://t.me/Davidsdy" class="fw-bold">Davidsdy</a>
-							</span>
+							
 						</div>
 					</div>
 				</div>

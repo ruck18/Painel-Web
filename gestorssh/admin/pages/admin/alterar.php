@@ -13,6 +13,9 @@ if ((isset($_POST["nome"])) and (isset($_POST["email"]))) {
 	$site = $_POST["site"];
 	$senhaat = $_POST["senhaantiga"];
 	$senhanew = $_POST["novasenha"];
+	$textorev = $_POST["textorev"];
+	$textocon = $_POST["textocon"];
+	$linkapp = $_POST["linkapp"];
 
 	$SQLUser = "select * from admin where id_administrador = '" . $_SESSION['usuarioID'] . "'   ";
 	$SQLUser = $conn->prepare($SQLUser);
@@ -35,7 +38,7 @@ if ((isset($_POST["nome"])) and (isset($_POST["email"]))) {
 			}
 			$updatesenha = "senha='" . $senhanew . "',";
 		}
-		$SQLUPUser = "update admin set " . $updatesenha . " nome='" . $_POST['nome'] . "', email='" . $_POST['email'] . "',site='" . $_POST['site'] . "' WHERE id_administrador = '" . $_SESSION['usuarioID'] . "' ";
+		$SQLUPUser = "update admin set " . $updatesenha . " nome='" . $_POST['nome'] . "', email='" . $_POST['email'] . "',site='" . $_POST['site'] . "',textorev='" . $_POST['textorev'] . "',textocon='" . $_POST['textocon'] . "',linkapp='" . $_POST['linkapp'] . "' WHERE id_administrador = '" . $_SESSION['usuarioID'] . "' ";
 		$SQLUPUser = $conn->prepare($SQLUPUser);
 		$SQLUPUser->execute();
 		echo myalertuser('success', 'Alterado com sucesso !', '../../home.php?page=admin/dados');

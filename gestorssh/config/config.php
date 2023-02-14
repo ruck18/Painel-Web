@@ -5,7 +5,7 @@ error_reporting(0);
 ob_start();
 session_start();
 if (strcmp(basename($_SERVER["SCRIPT_NAME"]), basename(__FILE__)) === 0){
-header("location: /conecta4g/index.php");
+header("location: /painel.php");
 exit;
 }
 date_default_timezone_set('America/Sao_Paulo');
@@ -14,7 +14,7 @@ date_default_timezone_set('America/Sao_Paulo');
 define("NOME_DB","sshplus");
 define("NOME_SERVER_DB",'localhost');
 define("USUARIO_DB",'root');
-define("SENHA_DB",'1020');
+define("SENHA_DB",'303030');
 
 #Conexão com o banco de dados
 try{

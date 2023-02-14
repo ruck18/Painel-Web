@@ -98,6 +98,36 @@ $procnoticias->execute();
                                     </div>
                                 </div>
                             </div>
+							
+							<div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="first-name-icon">Texto Revenda</label>
+                                    <div class="input-group input-group-merge">
+                                        <span class="input-group-text"><i data-feather='mail'></i></span>
+                                        <textarea type="text" name="textorev" id="textorev" minlength="5"  class="form-control" required><?php echo $administrador['textorev'];?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+							
+							<div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="first-name-icon">Texto Cliente</label>
+                                    <div class="input-group input-group-merge">
+                                        <span class="input-group-text"><i data-feather='mail'></i></span>
+                                        <textarea type="text" name="textocon" id="textocon" minlength="5"  class="form-control" required><?php echo $administrador['textocon'];?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+							
+							<div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="first-name-icon">Link do App</label>
+                                    <div class="input-group input-group-merge">
+                                        <span class="input-group-text"><i data-feather='link-2'></i></span>
+                                        <input type="text" name="linkapp" id="linkapp" minlength="5" value="<?php echo $administrador['linkapp'];?>" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn btn-success me-1 waves-effect waves-float waves-light">Salvar</button>

@@ -1,9 +1,9 @@
 <?php
-$endereco_web = "localhost";
+$endereco_web = "198.50.172.88";
 $data_hora_atual = date("Y-m-d H:i:s");
 
-$accessKEY = "49875103u";
-$DirBackup="49875103u";
+$accessKEY = "303030";
+$DirBackup="303030";
 
 //Dados API SMS ClickAtell
 $ClickAtellEnabled = 0 ;

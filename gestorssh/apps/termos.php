@@ -3,8 +3,8 @@
     <head>
         <!-- META SECTION -->
         <title>Apps</title>
-        <meta name="title" content="ANUBIS PAINEL - Internet Ilimitada 5G">
-        <meta name="description" content="ANUBIS PAINEL - Internet ilimitada de alta qualidade."> 
+        <meta name="title" content="EMPRESA - Internet Ilimitada 5G">
+        <meta name="description" content="EMPRESA - Internet ilimitada de alta qualidade."> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,7 +38,7 @@
                 border-bottom: 1px solid;
                 width: 246px;
                 padding: 4px; ">
-				<h1>ANUBIS PAINEL<br>
+				<h1>EMPRESA<br>
 				<br>
                 <h2>TERMOS DE USO<br>
             </div></h2><br>
@@ -52,6 +52,6 @@
                 • VOCÊ CONCORDA QUE VOCÊ ACESSA E USA O SERVIÇO A SEU CRITÉRIO E RISCO.<br><br>
                 • TODA RESPONSABILIDADE DE USO É SUA, NÃO SOMOS RESPONSÁVEL PELA REDE QUE VOCÊ ESTÁ A ACESSAR O SERVIÇO.
             </h4>
-            <p class="copyright">&copy; 2021 - <script> document.write(new Date().getFullYear())</script><br> Todos os direitos reservados<br><a title="Styleshout" href="https://t.me/oogeniohacker">PAINEL ANUBIS</a></p>
+            <p class="copyright">&copy; 2021 - <script> document.write(new Date().getFullYear())</script><br> Todos os direitos reservados<br><a title="Styleshout" href="https://t.me/smigolvip">EMPRESA</a></p>
     </body>
 </html>

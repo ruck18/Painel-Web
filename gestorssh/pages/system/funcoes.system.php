@@ -81,11 +81,28 @@ if (session_status() == PHP_SESSION_NONE) {
 
     function info_alert($_serv, $_user, $_pass, $_lim, $_days, $_dir)
     {
+		
+        global $conn;
+        
+        # procura textocon
+
+        $SQLverificatextocon = ("SELECT textocon FROM admin");
+        $SQLverificatextocon = $conn->query($SQLverificatextocon);
+        $resultados = $SQLverificatextocon->fetch(PDO::FETCH_ASSOC);
+        $textocon = implode(', ',$resultados);	
+
+		# procura linkapp
+
+        $SQLverificalinkapp = ("SELECT linkapp FROM admin");
+        $SQLverificalinkapp = $conn->query($SQLverificalinkapp);
+        $resultados = $SQLverificalinkapp->fetch(PDO::FETCH_ASSOC);
+        $linkapp = implode(', ',$resultados);	
+		
         $my_alert = "
     Swal.fire({
         icon: 'success',
-        title: 'Criado com sucesso!',
-        html: '<er>🌍 Servidor: " . $_serv . "</er> <br><br><er>👤 Usuário: " . $_user . "</er> <br><er>🔑 Senha: " . $_pass . "</er> <br><er>📲 Limite: " . $_lim . "</er> <br><er>🗓️ Expira em: " . $_days . "</er>',
+        title: '<er>Criado com sucesso!</er></er><br /><er></er><br />',
+        html: '<er>🌍 Servidor: " . $_serv . "</er> <br><br><er>👤 Usuário: " . $_user . "</er> <br><er>🔑 Senha: " . $_pass . "</er> <br><er>📲 Limite: " . $_lim . "</er> <br><er>🗓️ Expira em: " . $_days . "</er> <br><br><er>⏬ Aplicativo: " . $linkapp . "</er> </er><br /><er></er><br /><er> " . $textocon . "</er>',
         showDenyButton: true,
         confirmButtonText: 'Copiar',
         confirmButtonColor: '#8080ff',
@@ -157,11 +174,21 @@ if (session_status() == PHP_SESSION_NONE) {
 	
 	function info_alert_user($_site, $_user, $_pass, $_dir)
     {
+		
+        global $conn;
+        
+        # procura textorev
+
+        $SQLverificatextorev = ("SELECT textorev FROM admin");
+        $SQLverificatextorev = $conn->query($SQLverificatextorev);
+        $resultados = $SQLverificatextorev->fetch(PDO::FETCH_ASSOC);
+        $textorev = implode(', ',$resultados);
+		
         $my_alert = "
     Swal.fire({
         icon: 'success',
-        title: 'Criado com sucesso!',
-        html: '<er>🌐 Site: http://" . $_site . "</er> <br><br><er>👤 Usuário: " . $_user . "</er> <br><er>🔑 Senha: " . $_pass . "</er>',
+        title: '<er>Criado com sucesso!</er><br /><er></er><br /></er>',
+        html: '<er>🌐 Site: " . $_site . "</er> <br></br> <er>👤 Usuário: " . $_user . "</er> <br> <er>🔑 Senha: " . $_pass . "</er> </er><br /><er></er><br /><er>🤝 " . $textorev . "</er>',
         showDenyButton: true,
         confirmButtonText: 'Copiar',
         confirmButtonColor: '#8080ff',
