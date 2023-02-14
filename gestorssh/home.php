@@ -605,7 +605,7 @@ if ($usuario['tipo'] == "revenda") {
                             <li><a href="?page=ssh/add_teste"><i data-feather="clock"></i><span class="menu-item" data-i18n="Criar Teste">Criar Teste</span></a>
                             </li>
                         <?php } ?>
-                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">Usuário Online</span></a>
+                        <li><a href="?page=ssh/online"><i data-feather="zap"></i><span class="menu-item" data-i18n="SSH Online">Usuários Online</span></a>
                         </li>
                         <li><a href="?page=ssh/contas"><i data-feather='list'></i><span class="menu-item" data-i18n="Listar VPN">Listar de Usuário</span></a>
                         </li>
