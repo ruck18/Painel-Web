@@ -61,6 +61,10 @@ bash <(wget -qO- https://www.dropbox.com/s/mvzaqilgswcfxbo/bancoconecta.sh)
 
 6- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
 (quando alterar o NOME DA LOGO no painel pweb, Todos os texto EMPRESA será trocado também.)
+
+7- Para trocar o número do whatsapp, basta ir no pweb na opção 11
+
+8- Para trocar o nome do Painel, basta ir no pweb na opção 04
 ```
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
