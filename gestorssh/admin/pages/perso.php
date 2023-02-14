@@ -23,11 +23,12 @@
             <div class="card">
                 <div class="card-header">
                     <h4 class="card-title">UPLOAD DE BACKGROUNDS</h4>
-					<p class="px-0"><b>Tamanho recomendado (1980px x 1080px).png ou jpg</b>
+					<p class="px-0"><b>Tamanho recomendado da Logo (150px x 150px).png</b>
+					<p class="px-0"><b>Tamanho recomendado do Background da Página (1980px x 1080px).png</b>
 					
                 </div>
                 <div class="card-body">
-<center><p class="px-0"><b>AQUI FAZ UPLOAD DO LOGO PAINEL.</b></p></center>
+<center><p class="px-0"><b>AQUI FAZ UPLOAD DA LOGO - PAINEL.</b></p></center>
 <div class="alert-info">						
 </div>
 <p> 
@@ -40,7 +41,7 @@
 				</p>
     </form>
 </div>
-<center><p class="px-0"><b>AQUI FAZ UPLOAD DA LOGO ADMIN.</b></p></center>
+<center><p class="px-0"><b>AQUI FAZ UPLOAD DO BACKGROUND DA PÁGINA.</b></p></center>
 <div class="alert-info">						
 </div>
 <p> 
