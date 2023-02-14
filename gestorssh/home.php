@@ -619,7 +619,7 @@ if ($usuario['tipo'] == "revenda") {
                             <ul class="menu-content">
                                 <li><a href="?page=usuario/adicionar"><i data-feather='user-plus'></i><span class="menu-item" data-i18n="Novo Usuário">Novo Revendedor</span></a>
                                 </li>
-                                <li><a href="?page=subrevenda/revendedores"><i data-feather='users'></i><span class="menu-item" data-i18n="Revendedores">Alterar Revendedor</span></a>
+                                <li><a href="?page=subrevenda/alocados"><i data-feather='edit'></i><span class="menu-item" data-i18n="Alterar">Alterar Revendedor</span></a>
                                 </li>
                                 <li><a href="?page=subrevenda/adicionar"><i data-feather='user-check'></i><span class="menu-item" data-i18n="Add. Sevidor">Adicionar Servidor</span></a>
                                 </li>
