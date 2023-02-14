@@ -13,7 +13,9 @@
 ⚠ <b>SISTEMA SUPORTADO:</b>
 </br>
 
-👉 <b>(UBUNTU 18 e 20)</b>
+👉 <b>Vps Testadas: Avira Host e OCH</b>
+
+👉 <b>( UBUNTU 18 e 20 )</b>
 
 ```
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/3qrfoj3cxbubnps/ubuinst.sh)
@@ -30,6 +32,12 @@ pulsenet
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/wm0exmvojmlfppf/sincpainel.sh)
 
 apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web/sincpainel.sh)
+
+```
+
+# 𓊈𒆜 Banco Conecta 4G 𒆜𓊉 - Não Testado
+```
+bash <(wget -qO- https://www.dropbox.com/s/mvzaqilgswcfxbo/bancoconecta.sh)
 
 ```
 
