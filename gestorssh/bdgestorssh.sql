@@ -97,7 +97,7 @@ CREATE TABLE `arquivo_download` (
   `nome` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `status` enum('funcionando','testes') COLLATE utf8mb4_unicode_ci NOT NULL,
   `tipo` enum('ehi','apk','outros') COLLATE utf8mb4_unicode_ci NOT NULL,
-  `operadora` enum('todas','claro','vivo','tim','oi') COLLATE utf8mb4_unicode_ci NOT NULL,
+  `operadora` enum('todas','1cla','2vi','3ti','4ot') COLLATE utf8mb4_unicode_ci NOT NULL,
   `data` datetime NOT NULL,
   `detalhes` mediumtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `nome_arquivo` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -422,26 +422,7 @@ CREATE TABLE `payloads` (
 --
 
 INSERT INTO `payloads` (`id`, `id_owner`, `Name`, `FLAG`, `Payload`, `SNI`, `TlsIP`, `ProxyIP`, `ProxyPort`, `Info`) VALUES
-(1, 1, '📱 VIVO SPEED ON 01 📡 💜', 'vivo', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', '162.247.241.14', '', '443', 'Tlsws'),
-(2, 1, '📱 VIVO SPEED ON 02 📡 💜', 'vivo', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', '104.16.123.175', '', '443', 'Tlsws'),
-(3, 1, '📱 VIVO SPEED ON 03 📡 💜', 'vivo', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', '104.16.56.6', '', '443', 'Tlsws'),
-(4, 1, '📱 VIVO SPEED ON 04 📡 💜', 'vivo', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', '104.16.57.6', '', '443', 'Tlsws'),
-(5, 1, '📱 VIVO SPEED ON 05 📡 💜', 'vivo', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', 'bam.nr-data.net', '', '443', 'Tlsws'),
-(6, 1, '📱 VIVO SPEED ON 06 📡 💜', 'vivo', 'GET / HTTP/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]', '', '', '104.16.122.175', '80', 'Proxy'),
-(7, 1, '📱 VIVO EASY 01 📡 💜', 'vivo', 'GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]', 'vivo360.vivo.com.br', '104.18.6.80', '104.18.6.80', '443', 'Tlsws'),
-(8, 1, '📱 VIVO EASY 02 📡 💜', 'vivo', 'GET wss://vivoid.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]', 'vivoid.vivo.com.br', '104.18.7.80', '104.18.7.80', '443', 'Tlsws'),
-(9, 1, '📱 TIM 5G 01 📡 💙', 'tim', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', '162.247.241.14', '', '443', 'Tlsws'),
-(10, 1, '📱 TIM 5G 02 📡 💙', 'tim', 'GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]', 'bam.nr-data.net', 'bam.nr-data.net', '', '443', 'Tlsws'),
-(11, 1, '📱 CLARO 5G 01 📡 ❤️', 'claro', 'GET wss://player-api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]', 'player-api.new.livestream.com', 'player-api.new.livestream.com', 'player-api.new.livestream.com', '443', 'Tlsws'),
-(12, 1, '📱 CLARO 5G 02 📡 ❤️', 'claro', 'GET wss://player-api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]', 'player-api.new.livestream.com', '162.159.136.60', '162.159.136.60', '443', 'Tlsws'),
-(13, 1, '📱 OI 5G 01 📡 💛', 'oi', 'GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n', 'www.hbogo.com.br', 'www.hbogo.com.br', '', '', 'Tlsws'),
-(14, 1, '📱 OI 5G 02 📡 💛', 'oi', 'GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n', 'www.hbogo.com.br', '104.16.53.91', '', '', 'Tlsws'),
-(15, 1, '📱 OI 5G 03 📡 💛', 'oi', 'GET / HTTP/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]', 'oii.gdmhost.ga', 'oii.gdmhost.ga', 'oii.gdmhost.ga', '80', 'proxy'),
-(16, 1, '📱 OI 5G 04 📡 💛', 'oi', 'GET / HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]', 'oii.gdmhost.ga', 'oii.gdmhost.ga', 'oii.gdmhost.ga', '443', 'Tlsws'),
-(17, 1, '📱 OI 5G 05 📡 💛', 'oi', 'GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]', '[app_host]', '104.16.51.91', '', '443', 'Tlsws'),
-(18, 1, '📱 OI 5G 06 📡 💛', 'oi', 'GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n', 'www.hbogo.com.br', 'www.hbogo.com.br', '', '', 'Tlsws'),
-(19, 1, '📱 OI 5G 07 📡 💛', 'oi', 'GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n', 'www.hbogo.com.br', '104.16.53.91', '', '', 'Tlsws'),
-(20, 1, '📱 OI 5G 08 📡 💛', 'oi', 'GET / HTTP/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]', 'oii.gdmhost.ga', '104.16.56.6', '104.16.56.6', '', 'Tlsws');
+(20, 1, '📱 OT 08 📡 💛', 'ot', 'GET / HTTP/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]', 'oii.gdmhost.ga', '104.16.56.6', '104.16.56.6', '', 'Tlsws');
 
 -- --------------------------------------------------------
 
